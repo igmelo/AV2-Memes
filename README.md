@@ -19,9 +19,7 @@
 
 >Postman: teste de APIs.
 
->Docker: de alto desempenho, cria, teste e implementa aplicações em ambiente
-
-separado da máquina original, o container.
+>Docker: de alto desempenho, cria, teste e implementa aplicações em ambiente separado da máquina original, o container.
 
 # Instalação e configuração:
 
