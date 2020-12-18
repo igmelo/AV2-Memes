@@ -3,7 +3,7 @@
 Integrantes: Igor Galvão de Melo - 1123
 Thaisa Borsato Lopes - 1408
 
->Aplicações necessárias para o desenvolvimento do software:
+# Aplicações necessárias para o desenvolvimento do software:
 
 >Restify: framework para desenvolvimento de aplicações Web, dando auxílio ao tratamento de rotas.
 >Mongoose: ferramenta utilizada para modelagem de objetos para banco de dados não-relacional.
@@ -15,23 +15,22 @@ Thaisa Borsato Lopes - 1408
 >Docker: de alto desempenho, cria, teste e implementa aplicações em ambiente
 separado da máquina original, o container.
 
->Instalação e configuração:
+# Instalação e configuração:
 
 Ao realizar a clonagem do repositório, é necessário executar o comando abaixo
 para instalar as dependências:
 
 >npm install
 
-Para iniciar o servidor, executar o comando abaixo:
+# Para iniciar o servidor, executar o comando abaixo:
 
 >npm start
 
-Para criar a imagem docker (através do Windows Power Shell):
+# Para criar a imagem docker (através do Windows Power Shell):
 
 >docker build -t "nome_da_imagem" .
 >docker run -d --name "nome_do_container" -p 8000:5000 "nome_da_imagem"
 
-Teste de endpoints:
+# Teste de endpoints:
 
-Importar o arquivo de collections no Postman e executar o 
-teste das rotas. 
+>Importar o arquivo de collections no Postman e executar o teste das rotas. 
