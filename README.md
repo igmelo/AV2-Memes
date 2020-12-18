@@ -37,6 +37,7 @@ para instalar as dependências:
 # Para criar a imagem docker (através do Windows Power Shell):
 
 >docker build -t "nome_da_imagem" .
+
 >docker run -d --name "nome_do_container" -p 8000:5000 "nome_da_imagem"
 
 # Teste de endpoints:
